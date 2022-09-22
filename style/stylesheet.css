@@ -35,10 +35,10 @@ header {
   padding: 33px 25px;
 }
 
-/* Content */
-section {
+/* Main */
+.container {
   padding: 100px 80px;
-  height: 600px;
+  /* height: 600px; */
 }
 
 .container h1 {
@@ -51,6 +51,46 @@ section {
 
 .container h2 {
   font-size: 50px;
+}
+
+.content h3 {
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+
+.content {
+  height: 500px;
+  padding: 100px 80px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  padding-top: 100px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
 }
 
 /* Footer */
